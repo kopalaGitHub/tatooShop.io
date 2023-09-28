@@ -1,0 +1,98 @@
+.section3rd {
+  background-image: url(../../svg/frame-7.svg);
+}
+.FAQ {
+  max-width: 63rem;
+  margin: auto;
+  &_title {
+    color: var(--Style, #fff4eb);
+    text-align: center;
+    font-family: $font-angel;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: -0.08rem;
+    margin-bottom: 3.75rem;
+  }
+  &_wrapper {
+    padding-bottom: 10rem;
+    &-content {
+      padding: 2rem;
+      li {
+        color: #fff;
+        font-family: $font-satoshi;
+        font-size: 1.25rem;
+        line-height: 150%; /* 1.875rem */
+        letter-spacing: -0.025rem;
+        span {
+          font-weight: 900;
+        }
+      }
+    }
+    &-question {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      padding: 2rem;
+      color: #fff;
+      font-family: $font-satoshi;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    .inputCheck {
+      display: none;
+    }
+  }
+
+  #FAQ-1:checked ~ #FAQ-question1 {
+    border: none;
+    padding-bottom: 0;
+  }
+  #FAQ-2:checked ~ #FAQ-question2 {
+    border: none;
+    padding-bottom: 0;
+  }
+  #FAQ-3:checked ~ #FAQ-question3 {
+    border: none;
+    padding-bottom: 0;
+  }
+  #FAQ-4:checked ~ #FAQ-question4 {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  #FAQ-1 ~ #content1 {
+    display: none;
+  }
+  #FAQ-1:checked ~ #content1 {
+    display: block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  #FAQ-2 ~ #content2 {
+    display: none;
+  }
+  #FAQ-2:checked ~ #content2 {
+    display: block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  #FAQ-3 ~ #content3 {
+    display: none;
+  }
+  #FAQ-3:checked ~ #content3 {
+    display: block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  #FAQ-4 ~ #content4 {
+    display: none;
+  }
+  #FAQ-4:checked ~ #content4 {
+    display: block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+}

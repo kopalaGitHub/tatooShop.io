@@ -1,0 +1,397 @@
+@media only screen and (max-width: 1850px) {
+  .wrapper .sectionFirst {
+    .main_contentSide-title {
+      font-size: 6rem;
+    }
+    .main_imgSide {
+      height: 45rem;
+      max-width: 41.5rem;
+      &-timePriceBox {
+        top: 30rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1550px) {
+  .wrapper {
+    .sectionFirst {
+      &_header {
+        gap: 2.5rem;
+        max-width: 80rem;
+        margin-top: 2.13rem;
+        a {
+          font-size: 1rem;
+        }
+      }
+
+      .main {
+        margin: 2.5rem 5rem 0;
+        &_contentSide {
+          gap: 3rem;
+          &-title {
+            font-size: 5rem;
+          }
+          &-button {
+            font-size: 1.2rem;
+            width: 16rem;
+            height: 4rem;
+          }
+        }
+        &_imgSide {
+          margin-top: 5rem;
+          height: 33rem;
+          max-width: 30.5rem;
+          .girl-line-img {
+            top: 8rem;
+            right: 10rem;
+          }
+          &-timePriceBox {
+            top: 18rem;
+            right: 1rem;
+            gap: 1rem;
+            padding: 1.5rem;
+            .timePriceBox_title {
+              font-size: 1rem;
+              margin-bottom: 0.7rem;
+            }
+            .timePriceBox_content {
+              font-size: 1.7rem;
+            }
+          }
+        }
+      }
+    }
+    .section2nd {
+      .about {
+        margin: 8rem 2rem 0;
+        &_barberSide {
+          &-title {
+            max-width: 21rem;
+            font-size: 3.5rem;
+            margin: 3rem 3rem 0.75rem;
+          }
+        }
+        &_midleSide {
+          &-container {
+            &:first-child {
+              margin: 0 1.5rem 1.5rem;
+            }
+            &:last-child {
+              margin: 1.5rem 1.5rem 0;
+            }
+          }
+        }
+        &_contentUs {
+          &-title {
+            font-size: 3.5rem;
+          }
+          &-button {
+            font-size: 1rem;
+          }
+        }
+      }
+      .client {
+        max-width: 55rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .wrapper {
+    .sectionFirst {
+      &_header {
+        width: inherit;
+        margin: 1.7rem 1rem 0;
+        gap: 1.5rem;
+        &-star {
+          margin: 0 1rem;
+        }
+      }
+      .main {
+        margin: 0 2rem;
+        gap: 2rem;
+        &_imgSide {
+          max-width: 25.5rem;
+          margin-top: 10rem;
+          height: 27.5rem;
+        }
+      }
+    }
+    .section2nd {
+      .about {
+        margin: 8rem 2rem 0;
+        &_barberSide {
+          &-title {
+            max-width: 21rem;
+            margin: 2rem;
+            font-size: 2.5rem;
+            font-weight: 400;
+            letter-spacing: -0.05rem;
+          }
+        }
+        &_midleSide {
+          &-container {
+            &:first-child {
+              margin: 0 1.5rem 1.5rem;
+            }
+            &:last-child {
+              margin: 1.5rem 1.5rem 0;
+            }
+            p {
+              bottom: 1rem;
+            }
+          }
+        }
+        &_contentUs {
+          &_container {
+            padding: 2rem;
+          }
+          &-title {
+            font-size: 2.5rem;
+            font-weight: 400;
+            letter-spacing: -0.05rem;
+          }
+          &-content {
+            font-size: 0.875rem;
+            letter-spacing: -0.0175rem;
+          }
+          &-button {
+            max-width: 14rem;
+            color: #483524;
+            font-size: 0.875rem;
+            font-weight: 700;
+            letter-spacing: 0.06125rem;
+          }
+        }
+      }
+      .client {
+        max-width: 40rem;
+        &_title {
+          font-size: 2.5rem;
+          font-weight: 400;
+          letter-spacing: -0.05rem;
+        }
+        &_wrapper-profile {
+          img {
+            width: 6rem;
+            &:nth-child(3) {
+              width: 9rem;
+            }
+          }
+        }
+      }
+    }
+    .section3rd {
+      .FAQ {
+        max-width: 55rem;
+        &_wrapper {
+          &-question {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 950px) {
+  .wrapper {
+    .sectionFirst {
+      &_header {
+        width: inherit;
+        margin: 1.5rem;
+        padding: 1rem 2rem;
+        justify-content: space-between;
+        a {
+          display: none;
+        }
+        &-star {
+          margin: 0;
+        }
+        &-manu {
+          display: block;
+        }
+      }
+      .main {
+        justify-content: flex-start;
+        margin: 5rem 2.5rem 5rem;
+        &_contentSide {
+          margin: 0;
+          gap: 2.5rem;
+          max-width: 40rem;
+          &-title {
+            font-size: 7rem;
+          }
+          &-button {
+            width: 20rem;
+            letter-spacing: 0.11813rem;
+          }
+        }
+        &_imgSide {
+          display: none;
+        }
+      }
+      .sponsorsLine {
+        padding: 2rem 2.8rem;
+        gap: 1rem 2rem;
+        img {
+          &:nth-child(1) {
+            width: 6rem;
+          }
+          &:nth-child(2) {
+            width: 7rem;
+          }
+          &:nth-child(3) {
+            width: 7.6rem;
+          }
+          &:nth-child(4) {
+            width: 6.6rem;
+          }
+          &:nth-child(5) {
+            width: 7.8rem;
+          }
+          &:last-child {
+            display: block;
+            width: 8.01031rem;
+          }
+        }
+      }
+    }
+    .section2nd {
+      .about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 13rem;
+
+        gap: 2rem;
+        &_midleSide {
+          display: none;
+        }
+        .mediaContainers {
+          display: flex;
+          margin: 0;
+          img {
+            max-width: 8rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+        &_contentUs {
+          grid-row-start: 1;
+          grid-column-start: 2;
+        }
+      }
+      .client {
+        margin-top: 5rem;
+        max-width: 50rem;
+        &_title {
+          margin-bottom: 2rem;
+        }
+        &_wrapper {
+          margin: 0 2rem;
+
+          & > img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .wrapper {
+    .sectionFirst {
+      &_header {
+        padding: 1rem 1.5rem;
+        &-star {
+          width: 2.5rem;
+        }
+      }
+      .main {
+        margin: 0 2.5rem 5rem;
+        &_contentSide {
+          &-title {
+            font-size: 5rem;
+          }
+          &-button {
+            width: 15rem;
+          }
+        }
+      }
+    }
+    .section2nd {
+      padding-bottom: 5rem;
+      .about {
+        margin: 5rem 1.5rem;
+        grid-template-columns: 30rem;
+        grid-template-rows: 1fr 22rem 40rem 22rem;
+        &_contentUs {
+          grid-row-start: 3;
+          grid-column-start: 1;
+        }
+        .mediaContainers {
+          img {
+            max-width: inherit;
+          }
+          p {
+            font-size: 1.5rem;
+          }
+        }
+      }
+      .client {
+        &_wrapper {
+          &-content {
+            padding: 2rem 1.5rem;
+            &Title {
+              font-size: 1.5rem;
+              letter-spacing: -0.03rem;
+              margin-bottom: 1.5rem;
+            }
+            &P {
+              font-size: 1rem;
+              letter-spacing: -0.02rem;
+            }
+          }
+          &-profile {
+            justify-content: start;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            img {
+              width: 5rem;
+              &:nth-child(3) {
+                width: 7.5rem;
+                grid-column-start: 1;
+                grid-row-start: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+    .section3rd {
+      .FAQ {
+        &_wrapper {
+          margin: 0 2rem;
+          &-question {
+            font-size: 1.125rem;
+          }
+          &-content {
+            font-size: 1.25rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 550px) {
+  .wrapper {
+    .section2nd {
+      .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 22rem 1fr 22rem;
+      }
+    }
+  }
+}
