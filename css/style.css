@@ -376,7 +376,7 @@ a {
     grid-template-rows: 1fr 22rem 1fr 22rem; } }
 
 .sectionFirst {
-  background: url(../../svg/frame-7.svg); }
+  background: url(../svg/frame-7.svg); }
   .sectionFirst_header {
     margin: auto;
     display: flex;
@@ -510,7 +510,7 @@ a {
       display: none; }
 
 .section2nd {
-  background: url(../../svg/frame-6.svg);
+  background: url(../svg/frame-6.svg);
   padding-bottom: 10rem; }
   .section2nd .about {
     margin: 10rem 0 0;
