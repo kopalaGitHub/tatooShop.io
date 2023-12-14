@@ -376,7 +376,7 @@ a {
     grid-template-rows: 1fr 22rem 1fr 22rem; } }
 
 .sectionFirst {
-  background: url(../svg/frame-7.svg); }
+  background: url(../img/frame-7.svg); }
   .sectionFirst_header {
     margin: auto;
     display: flex;
@@ -510,10 +510,10 @@ a {
       display: none; }
 
 .section2nd {
-  background: url(../svg/frame-6.svg);
+  background: url(../img/frame-6.svg);
   padding-bottom: 10rem; }
   .section2nd .about {
-    margin: 10rem 0 0;
+    padding: 10rem 0 0;
     display: flex;
     border-radius: 1.5rem;
     justify-content: center; }
@@ -534,7 +534,7 @@ a {
         letter-spacing: -0.093rem;
         margin: 3.25rem 3.25rem 0.75rem; }
       .section2nd .about_barberSide-img {
-        background-image: url(../../svg/dots-background-1.svg);
+        background-image: url(../svg/dots-background-1.svg);
         padding: 3.25rem 4.25rem 0;
         border-radius: 0rem 0rem 2rem 2rem;
         max-width: 30rem;
@@ -705,7 +705,7 @@ a {
         letter-spacing: -0.025rem; }
 
 .section3rd {
-  background-image: url(../../svg/frame-7.svg); }
+  background-image: url(../../img/frame-7.svg); }
 
 .FAQ {
   max-width: 63rem;
